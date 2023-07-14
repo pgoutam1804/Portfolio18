@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 18vh;
+    background-color:#071425;
+    display: flex;
+}
+.d1 img{
+    height: 120px;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.d1{
+    width: 20%;
+    height: 100%;
+}
+.d2{
+   
+    width: 80%;
+    height: 100%;
+    display: flex;
+    padding-top: 7vh;;
+    justify-content: space-evenly;
+}
+a{
+    color: white;
+    font-size: 4vh;
+    text-decoration: none;
+}
+#aboutSection{
+    width: 100vw;
+    background-color: #007791;
+    display: flex;
+}
+.d3{
+    width: 50vw;
+    height: 40vh;
+}
+.d4{
+    width: 50vw;
+    height: 40vh;
+    text-align: center;
+}
+.d4 img{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    padding-left: 20px;
+    border-radius: 200px;
+    transition: width,height ;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.d4 img:hover{
+    width: 360px;
+    height: 360px;
+}
+h1{
+    padding: 20px;
+    padding-left: 80px;
+    color: white;
+    font-size: 50px;
+
+}
+p{
+    padding: 10px;
+    padding-left: 80px;
+    color: white;
+    font-size: 20px;
+}
+.d3 button{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color:#071425;
+    margin: 10px;
+    margin-left: 80px;
+    border-radius: 10px;
+    box-shadow: none;
+    border: 0;
+}
+a:hover,.d3 button:hover{
+    color: yellow;
+}
+h1 span{
+    text-shadow: 3px 2px 3px aqua;
+    color:#071425;
+}
+#skillsSection,#projectSection{
+    background-color: #007791;
+    width: 100vw;
+}
+h2{
+    font-size: 35px;
+    text-align: center;
+    color: #071425;
+    transition: transform;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+}
+h2:hover{
+    transform: rotate(360deg);
+}
+#skillsSection div,#projectSection div{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    display: flex;
+}
+strong{
+    font-size: 27px;
+    text-shadow: 3px 2px 3px gray;
+}
+.d5,.d6,.d7{
+    font-size: 25px;
+    width: 50vw;
+    height: 40vh;
+    justify-content: space-around;
+    line-height: 35px;
+
+}
+#projectSection .d6{
+    padding-right: 75px;
+}
+footer{
+    width: 100vw;
+    height: 18vh;
+    background-color:#071425;
+}
+h3{
+   font-size: 35px;
+   text-align: center;
+   color: white;
+   transition: font-size ;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+h3:hover{
+    font-size: 40px;
+
+}
+footer div{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.material-symbols-outlined{
+    color: white;
+    padding: 0px 30px;
+
+}
